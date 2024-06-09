@@ -11,7 +11,7 @@
 #### 1. Create an environment and install the required packages 
 
 ```sh
-conda create -n algea-ve python=3.10 -y
+conda create -n algea-ve python==3.10 -y
 conda activate algea-ve
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
