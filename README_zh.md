@@ -6,7 +6,7 @@
 ## 安装 
 #### 1.创建环境并安装需要的包 
     
-    conda create -n algea-ve python=3.10 -y
+    conda create -n algea-ve python==3.10 -y
     conda activate algea-ve
     pip install --upgrade pip  # enable PEP 660 support
     pip install -e .
